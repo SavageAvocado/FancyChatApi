@@ -1,7 +1,6 @@
 package net.savagedev.fancychat.listeners;
 
 import net.md_5.bungee.api.chat.TextComponent;
-import net.savagedev.fancychat.FancyChat;
 import net.savagedev.fancychat.events.AsyncFancyChatEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -9,7 +8,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
-import org.bukkit.plugin.java.JavaPlugin;
 
 public class ChatListener implements Listener {
     @EventHandler(priority = EventPriority.MONITOR)
